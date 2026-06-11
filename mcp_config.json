@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    }
+  }
+}
